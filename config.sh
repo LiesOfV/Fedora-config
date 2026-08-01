@@ -53,6 +53,8 @@ flatpak install flathub io.gitlab.librewolf-community -y
 
 flatpak install flathub com.mattjakeman.ExtensionManager -y
 
+flatpak install flathub io.github.Faugus.faugus-launcher -y
+
 
 #  Game launchers + prerequisite 
 sudo dnf install -y mesa-vulkan-drivers mesa-vulkan-drivers.i686 vulkan-tools
