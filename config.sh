@@ -112,8 +112,10 @@ else
   echo "MESA_SHADER_CACHE_MAX_SIZE=12G" >> ~/.config/environment.d/gaming.conf
 fi
 
+#. Hotkey
 
-
+sudo dnf install input-remapper -y 
+sudo systemctl enable --now input-remapper
 
 
 
